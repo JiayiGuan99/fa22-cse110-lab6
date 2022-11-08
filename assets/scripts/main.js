@@ -84,7 +84,7 @@ function initFormHandler() {
     // B5. TODO - Create an empty object (I'll refer to this object as recipeObject to
     //            make this easier to read), and then extract the keys and corresponding
     //            values from the FormData object and insert them into recipeObject
-    let recipeObject = new Object();
+    let recipeObject = {};
     for(const [key, value] of formData){
       recipeObject[key] = value;
     }
